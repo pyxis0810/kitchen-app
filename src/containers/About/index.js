@@ -13,7 +13,7 @@ import symbol10 from '../../images/rocket-kitchen-icon-studio.png';
 import symbol11 from '../../images/rocket-kitchen-icon-community.png';
 import symbol12 from '../../images/rocket-kitchen-icon-event.png';
 import symbol13 from '../../images/rocket-kitchen-icon-party.png';
-
+import onepy from '../../images/1py-logo@2x.png';
 
 
 import React, { Component } from 'react';
@@ -335,6 +335,18 @@ class About extends Component {
             <Button className="reservation-btn">예약하기</Button>
           </Row>
         </Section>
+        <Row className="footer">
+          <div><img src={onepy} className="onepy" /></div>
+          <div className="contact">1800-2689</div>
+          <div>
+            서울시 은평구 통일로 684 1동 602-A<br/>
+            영업시간  AM 10:00 - PM 07:00
+          </div>
+          <div>
+            (주)한평의꿈 대표 김민순 사업자번호 458-86-00206<br/>
+            Copyright @ 1py Inc. All rights reserved.
+          </div>
+        </Row>
       </SectionsContainer>
     )
   }
