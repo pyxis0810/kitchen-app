@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.title {
+  font-size: 26px;
+}
+
+.sub-title {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.division {
+  padding: 40px 40px;
+}
+
+.error {
+  color: red;
+}
+
+.arrow {
+  background-image: url('../images/rocket-kitchen-arrow-bottom@2x.png');
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -23px;
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 36px;
+  }
+  .arrow {
+    background-image: url('../images/rocket-kitchen-arrow@2x.png');
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 47px;
+    margin-left: -60px;
+    position: absolute;
+    left: 47px;
+    top: 90px;
+  }
+}
