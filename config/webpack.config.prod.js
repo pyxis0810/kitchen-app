@@ -155,8 +155,7 @@ module.exports = {
         test: /\.less$/,
         loader: ExtractTextPlugin.extract(
           'style',
-          'css?importLoaders=1!less!postcss',
-          extractTextPluginOptions
+          'css?importLoaders=1!less!postcss'
         )
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
